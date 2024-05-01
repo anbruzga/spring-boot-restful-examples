@@ -13,7 +13,7 @@ import java.util.Locale;
 @RestController
 public class HelloWorldController {
 
-    private MessageSource messageSource;
+    private final MessageSource messageSource;
 
     @Autowired
     public HelloWorldController(MessageSource messageSource) {
